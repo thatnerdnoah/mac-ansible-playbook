@@ -1,6 +1,4 @@
 ---
-downloads: ~/.ansible-downloads/
-
 configure_dotfiles: false
 configure_terminal: false
 configure_osx: true
@@ -44,14 +42,17 @@ dockitems_persist:
   - name: "Messages"
     path: "/Applications/Messages.app"
     pos: 5
-  - name: "WhatsApp"
-    path: "/Applications/WhatsApp.app"
-    pos: 6
+  # - name: "WhatsApp"
+  #   path: "/Applications/WhatsApp.app"
+  #   pos: 6
   - name: "Discord"
     path: "/Applications/Discord.app"
-    pos: 7
+    pos: 6
   - name: "Steam"
     path: "/Applications/Steam.app"
+    pos: 7
+  - name: "Screenshot"
+    path: "/Applications/Utilities/Screenshot.app"
     pos: 8
   - name: "System Settings"
     path: "/Applications/System\ Settings.app"
@@ -109,6 +110,7 @@ homebrew_taps: []
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
+  - scroll-reverser
   - microsoft-edge
   - webex
   - firefox
@@ -127,11 +129,11 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 configure_mas_apps: true
 mas_installed_apps:
-  - { id: 497799835, name: "Xcode" }
+  # - { id: 497799835, name: "Xcode" }
   - { id: 1295203466, name: "Microsoft Remote Desktop" }
   - { id: 1352778147, name: "Bitwarden" }
   - { id: 1451685025, name: "WireGuard" }
-  - { id: 310633997, name: "WhatsApp" }
+  # - { id: 310633997, name: "WhatsApp" }
 mas_email: ""
 mas_password: ""
 
