@@ -54,9 +54,12 @@ dockitems_persist:
   - name: "Screenshot"
     path: "/Applications/Utilities/Screenshot.app"
     pos: 8
+  - name: "Screenshot"
+    path: "/Applications/Utilities/Screenshot.app"
+    pos: 9
   - name: "System Settings"
     path: "/Applications/System\ Settings.app"
-    pos: 9
+    pos: 10
 
 configure_sudoers: false
 sudoers_custom_config: ""
