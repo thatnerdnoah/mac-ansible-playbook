@@ -132,7 +132,7 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 configure_mas_apps: true
 mas_installed_apps:
-  # - { id: 497799835, name: "Xcode" }
+  - { id: 497799835, name: "Xcode" }
   - { id: 1295203466, name: "Microsoft Remote Desktop" }
   - { id: 1352778147, name: "Bitwarden" }
   - { id: 1451685025, name: "WireGuard" }
