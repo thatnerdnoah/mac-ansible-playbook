@@ -42,9 +42,6 @@ dockitems_persist:
   - name: "Messages"
     path: "/Applications/Messages.app"
     pos: 5
-  # - name: "WhatsApp"
-  #   path: "/Applications/WhatsApp.app"
-  #   pos: 6
   - name: "Discord"
     path: "/Applications/Discord.app"
     pos: 6
@@ -136,7 +133,6 @@ mas_installed_apps:
   - { id: 1295203466, name: "Windows App" }
   - { id: 1352778147, name: "Bitwarden" }
   - { id: 1451685025, name: "WireGuard" }
-  # - { id: 310633997, name: "WhatsApp" }
 mas_email: ""
 mas_password: ""
 
