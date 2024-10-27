@@ -133,6 +133,7 @@ mas_installed_apps:
   - { id: 1295203466, name: "Windows App" }
   - { id: 1352778147, name: "Bitwarden" }
   - { id: 1451685025, name: "WireGuard" }
+  - { id: 1363637349, name: "Unread"}
 mas_email: ""
 mas_password: ""
 
