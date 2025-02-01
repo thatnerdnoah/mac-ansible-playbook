@@ -36,24 +36,21 @@ dockitems_persist:
   - name: "Safari"
     path: "/Applications/Safari.app"
     pos: 3
-  - name: "Brave Browser"
-    path: "/Applications/Brave\ Browser.app/"
-    pos: 4
   - name: "Messages"
     path: "/Applications/Messages.app"
-    pos: 5
+    pos: 4
   - name: "Discord"
     path: "/Applications/Discord.app"
-    pos: 6
+    pos: 5
   - name: "Steam"
     path: "/Applications/Steam.app"
-    pos: 7
+    pos: 6
   - name: "Screenshot"
     path: "/Applications/Utilities/Screenshot.app"
-    pos: 8
+    pos: 7
   - name: "System Settings"
     path: "/Applications/System\ Settings.app"
-    pos: 9
+    pos: 8
 
 configure_sudoers: false
 sudoers_custom_config: ""
