@@ -97,7 +97,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
-  - tart
+  # - tart
 
 homebrew_taps: []
 
@@ -123,9 +123,9 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 configure_mas_apps: true
 mas_installed_apps:
-  - { id: 497799835, name: "Xcode" }
+  # - { id: 497799835, name: "Xcode" }
   - { id: 1295203466, name: "Windows App" }
-  - { id: 1352778147, name: "Bitwarden" }
+  # - { id: 1352778147, name: "Bitwarden" }
   - { id: 1451685025, name: "WireGuard" }
   - { id: 1363637349, name: "Unread" }
   - { id: 1463298887, name: "Userscripts-Mac-App" }
