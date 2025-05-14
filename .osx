@@ -65,6 +65,9 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/S
 # Enable macOS Dark Mode
 osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true'
 
+# Set mineffect to scale
+defaults write com.apple.dock mineffect -string scale
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
