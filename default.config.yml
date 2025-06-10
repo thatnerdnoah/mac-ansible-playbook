@@ -26,9 +26,12 @@ dockitems_remove:
   - Notes
   - News
   - Music
+  - Games
+  - Launchpad
+  - Phone
 dockitems_persist:
-  - name: "Launchpad"
-    path: "/Applications/Launchpad.app"
+  - name: "Apps"
+    path: "/Applications/Apps.app"
     pos: 1
   - name: "iPhone Mirroring"
     path: '/Applications/iPhone Mirroring.app'
