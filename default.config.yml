@@ -74,31 +74,11 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
   - git
-  - gh
-  - go
-  - gpg
   - mas
-  - httpie
   - iperf
-  - libevent
-  - sqlite
-  - nmap
-  - node
-  - nvm
-  - php
   - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
-  - pv
   - wget
-  - wrk
   - zsh-history-substring-search
   # - tart
 
@@ -106,7 +86,6 @@ homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
   - scroll-reverser
   - microsoft-edge
   - webex
@@ -121,17 +100,16 @@ homebrew_cask_apps:
   - kdenlive
   - audacity
   - blender
-  - godot
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 configure_mas_apps: true
-mas_installed_apps: []
-  # # - { id: 497799835, name: "Xcode" }
-  # - { id: 1295203466, name: "Windows App" }
-  # # - { id: 1352778147, name: "Bitwarden" }
-  # - { id: 1451685025, name: "WireGuard" }
-  # - { id: 1363637349, name: "Unread" }
-  # - { id: 1463298887, name: "Userscripts-Mac-App" }
+mas_installed_apps:
+  # - { id: 497799835, name: "Xcode" }
+  - { id: 1295203466, name: "Windows App" }
+  # - { id: 1352778147, name: "Bitwarden" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 1363637349, name: "Unread" }
+  - { id: 1463298887, name: "Userscripts-Mac-App" }
 mas_email: ""
 mas_password: ""
 
